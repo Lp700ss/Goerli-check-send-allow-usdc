@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Grid, TextField, Button, Alert, Typography } from "@mui/material";
 
-const { applyDecimals } = require("../../utils/EthereumApi");
+const { applyDecimals } = require("../../utils/ethereumApi");
 
 const BalanceOf = ({ web3Token, tokenData }) => {
   const decimals = tokenData.find((x) => x.name === "Decimals").value;

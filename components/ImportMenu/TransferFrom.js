@@ -7,7 +7,7 @@ import {
   CircularProgress,
 } from "@mui/material";
 
-const { applyDecimals } = require("../../utils/EthereumApi");
+const { applyDecimals } = require("../../utils/ethereumApi");
 
 const TransferFrom = ({ web3Token, refreshDataGrid, tokenData }) => {
   const symbol = tokenData.find((x) => x.name === "Symbol").value;

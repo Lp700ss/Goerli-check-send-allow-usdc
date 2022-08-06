@@ -17,9 +17,6 @@ if (typeof window !== "undefined" && typeof window.ethereum !== "undefined") {
   web3 = new Web3(provider);
 }
 
-// const Web3 = require("web3");
-
-// const web3 = new Web3(window.ethereum);
 
 const Decimal = require("decimal.js");
 const applyDecimals = (rawValue, decimals, sign = "negative") => {
