@@ -8,7 +8,7 @@ import Approve from "../ImportMenu/Approve";
 import Allowance from "../ImportMenu/Allowance";
 
 const ERC20Token = require("./ERCToken");
-const { web3, applyDecimals } = require("../../utils/EthereumAPI");
+const { web3, applyDecimals } = require("../../utils/ethereumAPI");
 
 const ERC20Import = ({ tokenAddress }) => {
   const web3Token = new web3.eth.Contract(ERC20Token.abi, tokenAddress);

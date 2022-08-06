@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import AppAuthenticated from "../components/AppAuthenticated";
-// import LoginPage from "../components/ERC20/LoginPage";
+
 const Web3 = require("web3");
 
 
