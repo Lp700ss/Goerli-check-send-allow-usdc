@@ -55,7 +55,7 @@ const Approve = ({ web3Token, refreshDataGrid, tokenData }) => {
           {data.loading ? (
             <CircularProgress size={25} />
           ) : (
-            "approve(address spender, uint256 value)"
+            "SetAllowance(address spender, uint256 value)"
           )}
         </Button>
       </Grid>
